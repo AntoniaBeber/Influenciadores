@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <table>
+        <tr>
+            <th>Influencer</th>
+            <th>Youtube</th>
+            <th>Instagram</th>
+        </tr>
+        <tr>
+            <td>James Hoffmann </td>
+            <td><a class="youtube"
+            href="https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ">Acessar</a> </td>
+            <td><a class="instagram"
+            href="https://www.instagram.com/jimseven">Acessar</a> </td>
+        </tr>
+    
+        <tr>
+            <td>Adam Ragusea</td>
+            <td><a class="youtube"
+            href="https://www.youtube.com/@aragusea">Acessar</a> </td>
+            <td><a class="instagram"
+            href="https://www.instagram.com/aragusea/?hl=en">Acessar</a> </td>
+        </tr>
+    
+        <tr>
+            <td>Raphel Lima</td>
+            <td><a class="youtube"
+            href="https://www.youtube.com/user/ideiasradicais">Acessar</a> </td>
+            <td><a class="instagram"
+            href="https://www.instagram.com/ideiasradicais/">Acessar</a> </td>
+    
+        </tr>
+    
+    </table>
+</head>
+<body>
+    <style>
+        tr:first-child {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+    text-decoration: none;
+  }
+    tr:not(:first-child):hover {
+    background-color: #e6e8e7;
+    color: white;
+  }
+  .youtube{
+    background-color: #CC0000;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  .instagram{
+    background-color:  #EA0C5F;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+
+td:hover{
+   transform: scale(1.1);
+}
+
+
+
+
+
+
+
+    </style>
+</body>
+</html>
